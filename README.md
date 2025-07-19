@@ -34,12 +34,6 @@ It includes hierarchical decision-making with a router agent that selects the be
 ├── utils/                     # Utility functions and data loaders
 │   └── loader.py
 
-├── results/                   # Evaluation results and visuals
-│   ├── router_report.md
-│   ├── selected_betas.pkl
-│   ├── trained_agents_pool.pkl
-│   └── router_metrics.pkl
-
 ├── train_multiagent.py        # Main script for training agent pool
 ├── trainer_multiagent.py      # Alternate training script for stage 2
 ├── train_qteacher.py          # Supervised Q* training
